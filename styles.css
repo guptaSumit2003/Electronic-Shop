@@ -1,0 +1,171 @@
+body{
+    /* background-color: rgb(22, 20, 164); */
+    background-color: #dadcec;
+}
+h1{
+    text-align: center;
+    font-size: 4.9rem;
+    width: 100%;
+    color: #008a87;
+    /* color: #D9264F; */
+    font-family: 'Lilita One', cursive;
+    font-weight: 200;
+}
+/* navigation bar */
+.nav{
+    margin-bottom: 0;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    /* background-color: rgb(247, 192, 29); */
+    background-color: #4914d4;
+    border-radius: 10px;
+}
+
+
+/* heading has h1 only: */
+.heading{
+  
+}
+
+a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(53, 242, 126);
+    /* color: #6532CD; */
+}
+
+
+.imgbrand{
+    height:100px; 
+    padding: 0;  
+    margin-top: 5%;
+}
+.brand{
+    display: flex;
+    justify-content: space-around;
+}
+.marki{
+    margin-top: 1.5%;
+    background-color: white;
+    height: 110px;
+}
+
+
+
+/* for other pages */
+.sideHeading{
+    display: fixed;
+    color:#008a87;
+    font-family: 'Lilita One', cursive;
+    font-size: 1.1rem;
+}
+.samePage a{
+    color: rgb(53, 242, 126);
+}
+
+/*  ITEMS WE SELL */
+
+.allItems{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2%;
+    row-gap: 15%;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.toCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.allItems img{
+    height: 210px;
+    width: 210px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.mouseOver{
+    border-radius: 10px solid black;
+}
+
+/* About Us */
+.abtpara{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    padding-left:5%;
+    padding-right:5%;
+}
+.abth2{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+
+/* Connect Us */
+.icon{
+    height: 50px;
+    width: 50px;
+    margin:10px;
+}
+.cntctus{
+    text-align: center;
+}
+.icondiv{
+  display: inline-flex;
+}
+
+/* Login */
+.login{
+    background-color:white ;
+   
+    height: 400px;
+    width: 400px;
+   margin-left: 550px;
+   margin-top: 50px;
+    
+}
+.loginh{
+    font-size: 2rem;
+    text-align: center;
+    padding-top:20px;
+}
+.loginp{
+    font-size:1.5rem;
+    text-align: center;
+}
+.line{
+    background-color: black;
+}
+.searchbox{
+  
+   margin-left: 50px;
+   margin-top: 10px;
+    height: 25px;
+    width: 300px;
+}
+.loginbtn{
+    height: 50px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 10%;
+    background-color: rgb(77, 77, 253);
+}
+.loginextra{
+    margin-left: 10px;
+    color:rgb(77, 77, 253) ;
+}

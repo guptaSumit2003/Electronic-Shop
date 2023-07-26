@@ -1,0 +1,11 @@
+To scroll downt he page;
+<input type="button" onClick="document.getElementById('middle').scrollIntoView();" />
+
+html {
+  scroll-behavior: smooth;
+ }
+
+jQuery.ScrollTo
+http://flesler.blogspot.com/2007/10/jqueryscrollto.html
+
+// creating a proper search bar which directs you to logically right places.
